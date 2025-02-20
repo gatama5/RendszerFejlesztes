@@ -2,6 +2,7 @@
 /site-packages
 # Python related
 *.py[cod]
+__pycache__/
 *.so
 
 # Virtualenv

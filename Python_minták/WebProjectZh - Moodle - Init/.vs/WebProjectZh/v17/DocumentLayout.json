@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\courses.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\templates\\courses.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\subscription.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\templates\\subscription.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\forms\\subscriptionForm.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\forms\\subscriptionForm.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WebProjectZh||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\db_manager.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\db_manager.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\run.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\run.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84661264-1211-4C65-A44B-E1213E7F010E}|WebProjectZh\\WebProjectZh.pyproj|solutionrelative:WebProjectZh\\WebApp\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "routes.py",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\routes.py",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\routes.py",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\routes.py",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\routes.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-10T08:04:36.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\models.py",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\models.py",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\models.py",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-10T08:42:55.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "subscriptionForm.py",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\forms\\subscriptionForm.py",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\forms\\subscriptionForm.py",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\forms\\subscriptionForm.py",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\forms\\subscriptionForm.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-10T08:28:35.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "__init__.py (WebApp)",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\__init__.py",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\__init__.py",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\__init__.py",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\__init__.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-10T09:03:43.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "subscription.html",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\subscription.html",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\templates\\subscription.html",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\subscription.html",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\templates\\subscription.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-10T08:35:58.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "courses.html",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\courses.html",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\templates\\courses.html",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\courses.html",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\templates\\courses.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-10T08:32:00.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebProjectZh",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebProjectZh.pyproj",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebProjectZh.pyproj",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebProjectZh.pyproj",
+              "RelativeToolTip": "WebProjectZh\\WebProjectZh.pyproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-10T13:55:28.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "db_manager.py",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\db_manager.py",
+              "RelativeDocumentMoniker": "WebProjectZh\\db_manager.py",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\db_manager.py",
+              "RelativeToolTip": "WebProjectZh\\db_manager.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-10T08:58:28.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "base.html",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\base.html",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\templates\\base.html",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\base.html",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\templates\\base.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-10T08:25:11.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\index.html",
+              "RelativeDocumentMoniker": "WebProjectZh\\WebApp\\templates\\index.html",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\WebApp\\templates\\index.html",
+              "RelativeToolTip": "WebProjectZh\\WebApp\\templates\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-10T08:31:57.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "run.py",
+              "DocumentMoniker": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\run.py",
+              "RelativeDocumentMoniker": "WebProjectZh\\run.py",
+              "ToolTip": "C:\\Users\\Kubik M\u00E1rton\\Documents\\GitHub\\RendszerFejlesztes\\WebProjectZh - Moodle - Init\\WebProjectZh\\run.py",
+              "RelativeToolTip": "WebProjectZh\\run.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-10T08:09:19.303Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

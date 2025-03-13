@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home Page - {{name}}</title>
+</head>
+<body>
+    <div>
+        {{name}}:
+        <a href="/index">Home</a>
+        {% if page!="products" %}
+        <a href="/products">Products</a>
+        {% endif %}
+        {% if page!="order" %}
+        <a href="/order">Order</a>
+        {% endif %}
+    </div>
+    <hr>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul>
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <hr>
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+</body>
+</html>
+

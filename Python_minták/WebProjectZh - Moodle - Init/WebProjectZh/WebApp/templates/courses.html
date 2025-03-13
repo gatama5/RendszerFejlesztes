@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h3>Courses</h3>
+<!-- Write your solution here!-->
+<table>
+    <th>Code</th>
+    <th>Course</th>
+    <th>Students</th>
+    {% for course in courses %}
+    <tr>
+        <td>{{ course.code }}</td>
+        <td>{{ course.name }}</td>
+        <td>{{ course.students }}</td>
+        <td>http://localhost/courses/{{ course.code }}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+<!---->
+{% endblock %}

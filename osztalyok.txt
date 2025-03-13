@@ -1,0 +1,74 @@
+Felhasználó
+    id: int
+    név: str
+    email: str
+    jelszó: str (titkosítva tárolva)
+    telefonszám: str
+    lakcím: str
+    regisztrált: bool
+    Metódusok:
+    módosít_adatokat()
+    autók_listázása()
+    kölcsönzés_indítása(autó_id)
+    Ügyintéző (Felhasználó leszármazottja)
+
+Metódusok:
+    kölcsönzés_elfogadása(kölcsönzés_id)
+    autó_átadása(kölcsönzés_id)
+    autó_visszavétele(kölcsönzés_id)
+    számla_készítése(kölcsönzés_id)
+    Adminisztrátor (Felhasználó leszármazottja)
+
+Metódusok:
+    új_autó_felvétele(autó: Autó)
+    autó_módosítása(autó_id)
+    autó_törlése(autó_id)
+    kilométeróra_módosítása(autó_id, új_km)
+    
+2. Autókezelés
+Ezek az osztályok az autók és a kölcsönzési folyamatok kezeléséért felelősek.
+
+Autó
+    id: int
+    rendszám: str
+    márka: str
+    modell: str
+    évjárat: int
+    üzemanyag_típus: str
+    kilométeróra: int
+    állapot: str
+    elérhető: bool
+    Metódusok:
+    állapot_módosítása(új_állapot: str)
+    elérhetőség_beállítása(elérhető: bool)
+    
+Kölcsönzés
+    id: int
+    autó: Autó
+    felhasználó: Felhasználó
+    kezdődátum: dátum
+    végdátum: dátum
+    állapot: str (pl. Függőben, Aktív, Lezárt)
+    
+Metódusok:
+kölcsönzés_rögzítése()
+állapot_módosítása(új_állapot: str)
+
+Számla
+    id: int
+    felhasználó: Felhasználó
+    kölcsönzés: Kölcsönzés
+    összeg: float
+    fizetési_státusz: str (Fizetve, Függőben)
+Metódusok:
+    számla_kiállítása()
+    fizetés_regisztrálása()
+    
+3. Egyéb osztályok
+
+Naplozas
+    log_mentése(tevékenység: str)
+    
+Rendszer
+adatbázis_szinkronizáció()
+jogosultság_ellenőrzése()

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Regisztráció</title>
+</head>
+<body>
+    <h1>Regisztráció</h1>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form method="POST" action="{{ url_for('register') }}">
+        <div>
+            <label for="username">Felhasználónév:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Jelszó:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="name">Teljes név:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="phone">Telefonszám:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div>
+            <label for="address">Cím:</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div>
+            <label for="driver_license">Jogosítvány szám:</label>
+            <input type="text" id="driver_license" name="driver_license">
+        </div>
+        <div>
+            <input type="submit" value="Regisztráció">
+        </div>
+    </form>
+
+
+</body>
+</html>

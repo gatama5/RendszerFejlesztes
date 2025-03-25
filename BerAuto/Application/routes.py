@@ -1,8 +1,8 @@
 from Application import app, db
-from flask import render_template, request, redirect, url_for, flash
+from flask import render_template, request, redirect, url_for, flash, session
 from Application.User import User
 from Application.Customer import Customer
-from werkzeug.security import generate_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
 
 @app.route('/')
 @app.route('/index')
@@ -16,9 +16,7 @@ def register():
         username = request.form['username']
         password = request.form['password']
         name = request.form['name']
-        phone = request.form['phone']
-        address = request.form['address']
-        driver_license = request.form['driver_license']
+        email = request.form['email']
 
         # Ellenőrzés, hogy létezik-e már a felhasználó
         existing_user = User.query.filter_by(username=username).first()
@@ -34,9 +32,7 @@ def register():
             username=username,
             password=hashed_password,
             name=name,
-            phone=phone,
-            address=address,
-            driver_license=driver_license
+            email=email  # Hozzáadtam az email mezőt
         )
 
         # Adatbázisba mentés
@@ -51,3 +47,31 @@ def register():
             return redirect(url_for('register'))
 
     return render_template("register.html", page="register")
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form['email']
+        password = request.form['password']
+
+        # Felhasználó keresése email alapján
+        user = Customer.query.filter_by(email=email).first()
+
+        if user and check_password_hash(user.password, password):
+            # Sikeres bejelentkezés
+            session['user_id'] = user.id
+            session['username'] = user.username
+            flash('Sikeres bejelentkezés!')
+            return redirect(url_for('index'))
+        else:
+            flash('Érvénytelen email vagy jelszó!')
+            return redirect(url_for('login'))
+
+    return render_template("login.html", page="login")
+
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    flash('Sikeresen kijelentkezett!')
+    return redirect(url_for('index'))

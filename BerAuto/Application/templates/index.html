@@ -1,13 +1,62 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>Bérlakocsi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BérAutó - Üdvözlet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .card {
+            background-color: #1E1E1E;
+            border: none;
+        }
+        .btn-primary {
+            background-color: #FF6D00;
+            border-color: #FF6D00;
+        }
+        .btn-primary:hover {
+            background-color: #FF8F00;
+            border-color: #FF8F00;
+        }
+    </style>
 </head>
 <body>
-    <h1>Üdv</h1>
-    <nav>
-        <a href="{{ url_for('register') }}">Regisztráció</a>
-    </nav>
+    <div class="container">
+        <div class="row vh-100 align-items-center justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-body p-5 text-center">
+                        <h1 class="mb-4" style="color: #FF6D00;">BérAutó</h1>
+
+                        {% with messages = get_flashed_messages() %}
+                            {% if messages %}
+                                <div class="alert alert-danger">
+                                {% for message in messages %}
+                                    <p>{{ message }}</p>
+                                {% endfor %}
+                                </div>
+                            {% endif %}
+                        {% endwith %}
+
+                        {% if session.get('user_id') %}
+                            <p class="mb-4">Üdvözöljük, {{ session['username'] }}!</p>
+                            <a href="{{ url_for('logout') }}" class="btn btn-primary">Kijelentkezés</a>
+                        {% else %}
+                            <div class="d-grid gap-2">
+                                <a href="{{ url_for('register') }}" class="btn btn-primary">Regisztráció</a>
+                                <a href="{{ url_for('login') }}" class="btn btn-primary">Bejelentkezés</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

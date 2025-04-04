@@ -2,9 +2,8 @@ from flask import current_app, render_template, request, redirect, url_for, flas
 from flask_login import login_user, logout_user, login_required, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from Application import db, login_manager
-from Application.User import User
-from Application.Customer import Customer
+from Application import db
+from Application.models.Customer import Customer
 
 def register_routes(app):
     @app.route('/')

@@ -1,4 +1,4 @@
-from flask import Flask
+from apiflask import APIFlask
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase
 from flask_migrate import Migrate
@@ -11,7 +11,8 @@ db = SQLAlchemy(model_class=Base)
 login_manager = LoginManager()
 
 def create_app():
-    app = Flask(__name__)
+    app = APIFlask(__name__, json_errors=True,
+                   docs_path="/swagger",title="Berauto API")
     app.config["SECRET_KEY"] = "qwedasdqweasdqweasd"
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///mydb.db"
 
@@ -22,13 +23,13 @@ def create_app():
     migrate = Migrate(app, db)
 
     # Modellek importálása
-    from Application.User import User
-    from Application.Customer import Customer
-    from Application.Owner import Owner
-    from Application.CarManager import CarManager
+    from Application.models.User import User
+    from Application.models.Customer import Customer
+    from Application.models.Owner import Owner
+    from Application.models.CarManager import CarManager
 
     # Útvonalak regisztrálása
-    from Application.routes import register_routes
+    from Application.main.routes import register_routes
     register_routes(app)
 
     return app

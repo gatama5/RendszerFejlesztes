@@ -5,6 +5,9 @@ from sqlalchemy.sql.functions import user
 from Application import db
 from Application.blueprints.User.shemas import UserResponseSchema
 from Application.models.User import User
+from Application.models.Car import Car
+from Application.blueprints.User.shemas import CarResponseSchema
+
 
 
 class UserService:
@@ -37,3 +40,21 @@ class UserService:
             return True, UserResponseSchema().dump(user)
         except Exception as ex:
             return False, "Incorrect user data!"
+
+    @staticmethod
+    def get_all_cars():
+        try:
+            cars = db.session.execute(select(Car)).scalars().all()
+            return True, [CarResponseSchema().dump(car) for car in cars]
+        except Exception as ex:
+            return False, "Error fetching cars data!"
+
+    @staticmethod
+    def get_available_cars():
+        try:
+            available_cars = db.session.execute(
+                select(Car).filter_by(available=True)
+            ).scalars().all()
+            return True, [CarResponseSchema().dump(car) for car in available_cars]
+        except Exception as ex:
+            return False, "Error fetching available cars data!"

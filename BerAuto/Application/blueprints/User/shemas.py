@@ -18,5 +18,5 @@ class UserResponseSchema(Schema):
     address = fields.String(required=True)
 
 class UserLoginSchema(Schema):
-    email = fields.String(validate = Email, required=True)
+    email = fields.String(validate = Email(), required=True)
     password = fields.String(required=True)

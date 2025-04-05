@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.idea",
+    "\\Application",
+    "\\Application\\blueprints",
+    "\\Application\\main",
+    "\\Application\\models",
+    "\\instance",
+    "\\migrations"
+  ],
+  "SelectedNode": "\\Application\\blueprints\\__init__.py",
+  "PreviewInSolutionExplorer": false
+}

@@ -29,7 +29,11 @@ def create_app():
     from Application.models.CarManager import CarManager
 
     # Útvonalak regisztrálása
-    from Application.main.routes import register_routes
-    register_routes(app)
+    # from Application.main import register_routes
+    # register_routes(app)
+
+    # Register Blueprints
+    from Application.blueprints import bp as main_bp
+    app.register_blueprint(main_bp)
 
     return app
